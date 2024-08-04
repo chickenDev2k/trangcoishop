@@ -253,9 +253,9 @@ h2 {
 .footer a:hover {
   color: blue;
 }
-.office-adr {
-  margin: 20px 0;
-}
+/* .office-adr {
+  margin: 20px 0 0 0;
+} */
 .office-submit {
   margin: 40px 0;
 }
@@ -346,6 +346,10 @@ h2 {
   border-radius: 20px;
   outline: 2px solid var(--second-color) red;
 }
+.input-mail {
+  margin-top: 20px;
+}
+
 /* login */
 .login {
   max-width: 1000px;
@@ -377,7 +381,7 @@ h2 {
 .login__heading {
   font-size: 2.5rem;
   margin: 20px 0;
-  text-shadow: 1px 1px rgb(175, 49, 203);
+
   color: rgb(180, 30, 221);
 }
 #email,
@@ -410,6 +414,9 @@ h2 {
   align-items: center;
   margin: 10px 0;
 }
+.forget a {
+  color: blue;
+}
 .login-btn {
   background-color: rgb(113, 189, 237);
   width: 100%;
@@ -423,7 +430,9 @@ h2 {
 }
 .login-link {
   text-decoration: underline;
-  color: rgb(225, 0, 255);
+  color: rgb(11, 15, 240);
+  margin: 10px 0;
+  display: inline-block;
 }
 /* media */
 @media (max-width: 992px) {
